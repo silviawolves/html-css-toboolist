@@ -67,13 +67,15 @@ main {
 
 section {
     color: #4D5159;
+    margin-top: 20px;
 }
 
 .done, .tasks {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.done {
+.done, .not-done {
     height: 17px;
     width: 17px;
     font-size: 12px;
@@ -82,6 +84,11 @@ section {
     border: 1px solid #64C0A9;
     border-radius: 50%;
     display: inline-block;
+}
+
+.not-done {
+    color: red;
+    border: 1px solid red;
 }
 
 .tasks {
@@ -97,6 +104,18 @@ section {
     display: inline-block;
 }
 
-.tag, .blue-tag {
+.blue-tag {
     background-color: #59B6F3;
+}
+
+.violet-tag {
+    background-color: #9C72E4;
+}
+
+.green-tag {
+    background-color: #64C0A9;
+}
+
+.orange-tag {
+    background-color: #F29E33;
 }
