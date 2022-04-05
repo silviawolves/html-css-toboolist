@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
+    background-color: #F6F8F9;
 }
 
 header {
@@ -22,4 +22,34 @@ header img {
 .title {
     font-size: 50px;
     font-weight: 800;
+}
+
+nav {
+    margin-top: 35px;
+    padding: 15px 0px 10px 15px;
+}
+
+nav, main {
+    background-color: white;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.inactive-button {
+    background-color: #59B6F3;
+    border: 1px solid #59B6F3;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.active-button {
+    background-color: #fff;
+    border: 1px solid lightgray;
+    color: lightgray;
 }
