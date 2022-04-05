@@ -26,14 +26,20 @@ header img {
 
 nav {
     margin-top: 35px;
-    padding: 15px 0px 10px 15px;
+    padding: 15px 0px 2px 0px;
 }
 
-nav, main {
+main, #buttons-container {
     background-color: white;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#buttons-container {
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 15px 0px 0px 50px;
 }
 
 button {
@@ -45,11 +51,52 @@ button {
     background-color: #59B6F3;
     border: 1px solid #59B6F3;
     color: #fff;
-    margin-left: 30px;
 }
 
 .active-button {
     background-color: #fff;
     border: 1px solid lightgray;
     color: lightgray;
+}
+
+main {
+    height: 500px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 25px 0px 10px 50px;
+}
+
+section {
+    color: #4D5159;
+}
+
+.done, .tasks {
+    margin-top: 10px;
+}
+
+.done {
+    height: 17px;
+    width: 17px;
+    font-size: 12px;
+    text-align: center;
+    color: #64C0A9;
+    border: 1px solid #64C0A9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.tasks {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tag {
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+    padding: 7px 13px 7px 13px;
+    display: inline-block;
+}
+
+.tag, .blue-tag {
+    background-color: #59B6F3;
 }
