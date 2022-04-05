@@ -37,13 +37,13 @@ main, #buttons-container {
 }
 
 #buttons-container {
-    height: 50px;
+    height: 55px;
     border-radius: 5px 5px 0px 0px;
     padding: 15px 0px 0px 50px;
 }
 
 button {
-    padding: 5px;
+    padding: 7px 10px 7px 10px;
     border-radius: 5px;
 }
 
@@ -60,9 +60,10 @@ button {
 }
 
 main {
-    height: 500px;
+    height: 530px;
     border-radius: 0px 0px 5px 5px;
     padding: 25px 0px 10px 50px;
+    margin-bottom: 20px;
 }
 
 section {
@@ -118,4 +119,12 @@ section {
 
 .orange-tag {
     background-color: #F29E33;
+}
+
+.magenta-tag {
+    background-color: #D863A1;
+}
+
+.lightgreen-tag {
+    background-color: #B0C925;
 }
